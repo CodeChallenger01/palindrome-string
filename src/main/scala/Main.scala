@@ -21,7 +21,7 @@ class StringPalindrome{
     }
 }
 //singleton object
-object Palindrome extends App{
+object Main extends App{
     val obj=new StringPalindrome
     try{
         val inputString=readLine("Enter the String  :")
